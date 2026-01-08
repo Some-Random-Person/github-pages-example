@@ -1,0 +1,37 @@
+{
+  "name": "github-pages-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "format": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Some-Random-Person/github-pages-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Some-Random-Person/github-pages-example/issues"
+  },
+  "homepage": "https://github.com/Some-Random-Person/github-pages-example#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@eslint/js": "^9.39.2",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jest": "^29.12.1",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.7.4"
+  }
+}
